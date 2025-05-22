@@ -1,1 +1,10 @@
 @import 'tailwindcss';
+
+body {
+	@apply bg-emerald-950 font-mono text-emerald-50;
+}
+
+button,
+a {
+	@apply focus:outline-none focus-visible:inset-ring-3 focus-visible:inset-ring-emerald-400;
+}
