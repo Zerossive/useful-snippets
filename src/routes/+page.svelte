@@ -126,7 +126,7 @@ const y = 2;
 			Developed by
 			<a href="https://dannyharris.dev" class="text-emerald-400 underline">dannyharris.dev</a>
 		</span>
-		<span>Copyright © 2023—{new Date().getFullYear()} Danny Harris</span>
+		<span>Copyright © 2023–{new Date().getFullYear()} Danny Harris</span>
 		<span>
 			Get your own website at
 			<a href="https://freelancewebdev.dev" class="text-emerald-400 underline">
