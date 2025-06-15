@@ -3,28 +3,11 @@
 	import Code from '$lib/components/Code.svelte'
 	import Description from '$lib/components/Description.svelte'
 	import Heading from '$lib/components/Heading.svelte'
+	import Nav from '$lib/components/Nav.svelte'
 	import Snippet from '$lib/components/Snippet.svelte'
 </script>
 
-<aside class="flex flex-col bg-black/50">
-	<Heading>
-		<h1 class="text-2xl text-emerald-400">> useful snippets_</h1>
-	</Heading>
-	<nav>
-		<Heading>category 1</Heading>
-		<ul>
-			<li>
-				<a href="#catetgory-1">Category 1</a>
-			</li>
-		</ul>
-	</nav>
-	<button
-		class="sticky top-0 cursor-pointer py-4 underline"
-		onclick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-	>
-		scroll to top
-	</button>
-</aside>
+<Nav />
 
 <div class="grow">
 	<main>
